@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "esp32") (type "KiCad") (uri "${KIPRJMOD}/footprints/esp32.pretty") (options "") (descr ""))
+	(lib (name "tb6612fng") (type "KiCad") (uri "${KIPRJMOD}/footprints/tb6612fng.pretty") (options "") (descr ""))
+	(lib (name "TXS0108E") (type "KiCad") (uri "${KIPRJMOD}/footprints/TXS0108E.pretty") (options "") (descr ""))
+	(lib (name "Battery") (type "KiCad") (uri "${KIPRJMOD}/footprints/Battery.pretty") (options "") (descr ""))
+)
