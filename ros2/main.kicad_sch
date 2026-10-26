@@ -4583,7 +4583,7 @@
 	)
 	(text "ОДИН З ЦИХ ТРЕБА ЗАБРАТИ"
 		(exclude_from_sim no)
-		(at 40.64 38.1 0)
+		(at 40.386 38.608 0)
 		(effects
 			(font
 				(size 1.27 1.27)
