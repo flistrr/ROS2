@@ -4,4 +4,5 @@
 	(lib (name "tb6612fng") (type "KiCad") (uri "${KIPRJMOD}/footprints/tb6612fng.pretty") (options "") (descr ""))
 	(lib (name "TXS0108E") (type "KiCad") (uri "${KIPRJMOD}/footprints/TXS0108E.pretty") (options "") (descr ""))
 	(lib (name "Battery") (type "KiCad") (uri "${KIPRJMOD}/footprints/Battery.pretty") (options "") (descr ""))
+	(lib (name "XL63070") (type "KiCad") (uri "${KIPRJMOD}/footprints/XL63070.pretty") (options "") (descr ""))
 )

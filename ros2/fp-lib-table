@@ -5,4 +5,5 @@
 	(lib (name "TXS0108E") (type "KiCad") (uri "${KIPRJMOD}/footprints/TXS0108E.pretty") (options "") (descr ""))
 	(lib (name "Battery") (type "KiCad") (uri "${KIPRJMOD}/footprints/Battery.pretty") (options "") (descr ""))
 	(lib (name "XL63070") (type "KiCad") (uri "${KIPRJMOD}/footprints/XL63070.pretty") (options "") (descr ""))
+	(lib (name "ACS712_MODULE") (type "KiCad") (uri "${KIPRJMOD}/footprints/ACS712_MODULE.pretty") (options "") (descr ""))
 )
