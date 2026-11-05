@@ -12510,7 +12510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "esp32:MODULE_ESP32_DEVKIT_V1"
+		(property "Footprint" "esp32:MODULE_ESP32_DEVKIT_V1_38P_NEW"
 			(at 124.46 153.67 0)
 			(hide yes)
 			(show_name no)
