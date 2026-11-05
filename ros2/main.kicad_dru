@@ -1,0 +1,39 @@
+(version 1)
+
+# KiCad custom design rules for isolation-milled PCBs on a Makera Carvera Air.
+# Conservative starting values: not published by Makera. Cut a test coupon and adjust to your bit.
+# No plating, solder mask or silkscreen is assumed.
+# Copy this file next to your project and name it <project>.kicad_dru.
+# When several rules match, the later one wins.
+
+(rule "copper clearance"
+  # Must exceed the width the V-bit cuts: tip + 2 * depth * tan(angle / 2).
+  (constraint clearance (min 0.4mm)))
+
+(rule "track width"
+  (condition "A.Type == 'track'")
+  (constraint track_width (min 0.4mm) (opt 0.5mm)))
+
+(rule "through-hole pad ring"
+  # Unplated copper has to survive drilling and soldering.
+  (condition "A.Type == 'pad' && A.Pad_Type == 'Through-hole'")
+  (constraint annular_width (min 0.45mm)))
+
+(rule "smallest drill"
+  # Set this to the smallest drill you own.
+  (constraint hole_size (min 0.8mm)))
+
+(rule "vias"
+  # Sized for a soldered wire link. Change them to fit if you use rivets.
+  (condition "A.Type == 'via'")
+  (constraint hole_size (min 0.8mm))
+  (constraint via_diameter (min 1.8mm)))
+
+(rule "copper to board edge"
+  (constraint edge_clearance (min 0.6mm)))
+
+(rule "copper pours"
+  (condition "A.Type == 'zone'")
+  (constraint clearance (min 0.5mm))
+  (constraint thermal_relief_gap (min 0.5mm))
+  (constraint thermal_spoke_width (min 0.6mm)))
