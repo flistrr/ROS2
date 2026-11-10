@@ -6,4 +6,5 @@
 	(lib (name "Battery") (type "KiCad") (uri "${KIPRJMOD}/footprints/Battery.pretty") (options "") (descr ""))
 	(lib (name "XL63070") (type "KiCad") (uri "${KIPRJMOD}/footprints/XL63070.pretty") (options "") (descr ""))
 	(lib (name "ACS712_MODULE") (type "KiCad") (uri "${KIPRJMOD}/footprints/ACS712_MODULE.pretty") (options "") (descr ""))
+	(lib (name "milling") (type "KiCad") (uri "${KIPRJMOD}/footprints/milling.pretty") (options "") (descr "Footprints with pad rings enlarged for isolation milling (Carvera Air rules)"))
 )
