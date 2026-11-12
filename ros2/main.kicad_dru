@@ -8,7 +8,14 @@
 
 (rule "copper clearance"
   # Must exceed the width the V-bit cuts: tip + 2 * depth * tan(angle / 2).
-  (constraint clearance (min 0.4mm)))
+  # 0.8 mm: track-track, track-pad, via and pour clearance (user requirement).
+  (constraint clearance (min 0.8mm)))
+
+(rule "pad to pad"
+  # Footprints are fixed: 2.54 mm headers with 1.9-2.0 mm pads leave ~0.54 mm.
+  # Only pad-to-pad gaps are exempt from 0.8 mm.
+  (condition "A.Type == 'pad' && B.Type == 'pad'")
+  (constraint clearance (min 0.5mm)))
 
 (rule "track width"
   (condition "A.Type == 'track'")
@@ -34,6 +41,6 @@
 
 (rule "copper pours"
   (condition "A.Type == 'zone'")
-  (constraint clearance (min 0.5mm))
-  (constraint thermal_relief_gap (min 0.5mm))
+  (constraint clearance (min 0.8mm))
+  (constraint thermal_relief_gap (min 0.8mm))
   (constraint thermal_spoke_width (min 0.6mm)))

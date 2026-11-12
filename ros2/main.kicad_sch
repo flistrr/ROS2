@@ -2358,7 +2358,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 -25.4 180)
 					(length 5.08)
 					(hide yes)
@@ -2841,7 +2841,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 -10.16 180)
 					(length 5.08)
 					(hide yes)
@@ -2860,7 +2860,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 -10.16 180)
 					(length 5.08)
 					(hide yes)

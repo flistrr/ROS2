@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.4,
+        "min_clearance": 0.8,
         "min_connection": 0.4,
         "min_copper_edge_clearance": 0.6,
         "min_groove_width": 0.0,
@@ -178,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -189,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -200,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -509,7 +512,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.8,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -520,19 +523,128 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.7,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 1.8,
+        "via_drill": 0.8,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.8,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Motor",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 1.8,
+        "via_drill": 0.8,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.8,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.2,
+        "tuning_profile": "",
+        "via_diameter": 1.8,
+        "via_drill": 0.8,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.8,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Supply3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.7,
+        "tuning_profile": "",
+        "via_diameter": 1.8,
+        "via_drill": 0.8,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.8,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Supply5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.7,
+        "tuning_profile": "",
+        "via_diameter": 1.8,
+        "via_drill": 0.8,
         "wire_width": 6
       }
     ],
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "net_colors": {},
+    "netclass_assignments": {},
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "/POWER+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/BMS P+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/SWITCHED_PLUS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/BAT_*"
+      },
+      {
+        "netclass": "Motor",
+        "pattern": "/M?_OUT?"
+      },
+      {
+        "netclass": "Supply5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Supply5V",
+        "pattern": "GNDD"
+      },
+      {
+        "netclass": "Supply3V3",
+        "pattern": "+3.3V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
