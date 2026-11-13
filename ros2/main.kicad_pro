@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.8,
+        "min_clearance": 0.85,
         "min_connection": 0.4,
         "min_copper_edge_clearance": 0.6,
         "min_groove_width": 0.0,
@@ -512,7 +512,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.8,
+        "clearance": 0.9,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -523,7 +523,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.7,
+        "track_width": 1.0,
         "tuning_profile": "",
         "via_diameter": 1.8,
         "via_drill": 0.8,
@@ -531,7 +531,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.8,
+        "clearance": 0.9,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -550,7 +550,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.8,
+        "clearance": 0.9,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -569,7 +569,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.8,
+        "clearance": 0.9,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -580,7 +580,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.7,
+        "track_width": 1.0,
         "tuning_profile": "",
         "via_diameter": 1.8,
         "via_drill": 0.8,
@@ -588,7 +588,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.8,
+        "clearance": 0.9,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -599,7 +599,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.7,
+        "track_width": 1.0,
         "tuning_profile": "",
         "via_diameter": 1.8,
         "via_drill": 0.8,

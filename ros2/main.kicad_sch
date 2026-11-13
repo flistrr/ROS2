@@ -6855,7 +6855,7 @@
 		)
 		(uuid "0cd7860f-7a76-4e4a-b759-40efa1a68317")
 	)
-	(label "M3_ENC_B_ESP"
+	(label "M1_ENC_B_ESP"
 		(at 142.24 143.51 0)
 		(effects
 			(font
@@ -6905,7 +6905,7 @@
 		)
 		(uuid "15617324-1154-4a17-805a-4243e244ab28")
 	)
-	(label "LEFT_IN1"
+	(label "M2_PWM"
 		(at 142.24 153.67 0)
 		(effects
 			(font
@@ -6935,7 +6935,7 @@
 		)
 		(uuid "1a8165c1-f9fa-447b-b866-eeb822954f18")
 	)
-	(label "M1_ENC_B_ESP"
+	(label "M3_ENC_B_ESP"
 		(at 142.24 168.91 0)
 		(effects
 			(font
@@ -7045,7 +7045,7 @@
 		)
 		(uuid "35fb9ce3-df43-486e-99c5-5bb5a2189838")
 	)
-	(label "LEFT_IN2"
+	(label "M3_PWM"
 		(at 142.24 156.21 0)
 		(effects
 			(font
@@ -7105,7 +7105,7 @@
 		)
 		(uuid "431ca65e-a4b1-45c6-88d7-e73304b2ae07")
 	)
-	(label "RIGHT_IN2"
+	(label "RIGHT_IN1"
 		(at 142.24 161.29 0)
 		(effects
 			(font
@@ -7195,7 +7195,7 @@
 		)
 		(uuid "5be7e0f5-f794-462b-9b7f-19c790aa9dd4")
 	)
-	(label "M2_ENC_B_ESP"
+	(label "M4_ENC_B_ESP"
 		(at 142.24 166.37 0)
 		(effects
 			(font
@@ -7225,7 +7225,7 @@
 		)
 		(uuid "62d45580-3f8d-46eb-90c9-71b81c72521c")
 	)
-	(label "M2_PWM"
+	(label "M1_PWM"
 		(at 106.68 171.45 180)
 		(effects
 			(font
@@ -7325,7 +7325,7 @@
 		)
 		(uuid "7bab4095-c075-4941-b0ab-129121e3f91b")
 	)
-	(label "TXS_OE"
+	(label "MOTORS_STBY"
 		(at 106.68 151.13 180)
 		(effects
 			(font
@@ -7335,7 +7335,7 @@
 		)
 		(uuid "82eded6e-017a-40be-91f7-a515bda41d29")
 	)
-	(label "MOTORS_STBY"
+	(label "TXS_OE"
 		(at 106.68 161.29 180)
 		(effects
 			(font
@@ -7425,7 +7425,7 @@
 		)
 		(uuid "9534d09a-ef58-4941-929b-1a36e279e857")
 	)
-	(label "M3_ENC_A_ESP"
+	(label "M4_PWM"
 		(at 106.68 163.83 180)
 		(effects
 			(font
@@ -7435,7 +7435,7 @@
 		)
 		(uuid "9576a8b5-5e66-44bc-8c67-3554f2f7be3b")
 	)
-	(label "M4_PWM"
+	(label "LEFT_IN2"
 		(at 142.24 151.13 0)
 		(effects
 			(font
@@ -7445,7 +7445,7 @@
 		)
 		(uuid "957f442c-c9e0-4709-9edf-8ad579d0b4c5")
 	)
-	(label "M4_ENC_A_ESP"
+	(label "M2_ENC_A_ESP"
 		(at 142.24 146.05 0)
 		(effects
 			(font
@@ -7495,7 +7495,7 @@
 		)
 		(uuid "a65801d9-07a9-4624-afb7-1ecf8245797f")
 	)
-	(label "M4_ENC_B_ESP"
+	(label "M1_ENC_A_ESP"
 		(at 106.68 153.67 180)
 		(effects
 			(font
@@ -7615,7 +7615,7 @@
 		)
 		(uuid "cbd1ccac-5744-47a5-95e2-0c82527e2931")
 	)
-	(label "M3_PWM"
+	(label "LEFT_IN1"
 		(at 106.68 173.99 180)
 		(effects
 			(font
@@ -7625,7 +7625,7 @@
 		)
 		(uuid "d28044f1-b777-4e0b-98eb-1c1477b3d2e8")
 	)
-	(label "M1_ENC_A_ESP"
+	(label "M3_ENC_A_ESP"
 		(at 142.24 171.45 0)
 		(effects
 			(font
@@ -7655,7 +7655,7 @@
 		)
 		(uuid "dd191c9c-2cd9-45d6-91c0-cdfad5144b60")
 	)
-	(label "RIGHT_IN1"
+	(label "RIGHT_IN2"
 		(at 142.24 158.75 0)
 		(effects
 			(font
@@ -7695,7 +7695,7 @@
 		)
 		(uuid "eec479e5-9f38-489f-89a0-617b524b31fd")
 	)
-	(label "M2_ENC_A_ESP"
+	(label "M4_ENC_A_ESP"
 		(at 142.24 163.83 0)
 		(effects
 			(font
@@ -7735,7 +7735,7 @@
 		)
 		(uuid "f65275c4-edba-4150-a4c0-3ba463121055")
 	)
-	(label "M1_PWM"
+	(label "M2_ENC_B_ESP"
 		(at 106.68 168.91 180)
 		(effects
 			(font
