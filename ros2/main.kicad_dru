@@ -41,9 +41,9 @@
   (constraint thermal_spoke_width (min 0.8mm)))
 
 (rule "pad clearance"
-  # 1.0 mm from every pad to tracks, vias and pours (user requirement).
+  # Pads to tracks, vias and pours: 1.0 mm preferred, 0.7 mm only where nothing else fits (user requirement).
   (condition "A.Type == 'pad' || B.Type == 'pad'")
-  (constraint clearance (min 1.0mm)))
+  (constraint clearance (min 0.7mm) (opt 1.0mm)))
 
 (rule "pad to pad"
   # Footprints are fixed: 2.54 mm headers with 1.9-2.0 mm pads leave ~0.54 mm.
