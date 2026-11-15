@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.85,
+        "min_clearance": 0.3,
         "min_connection": 0.4,
         "min_copper_edge_clearance": 0.6,
         "min_groove_width": 0.0,
@@ -159,7 +159,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.8,
-        "min_track_width": 0.4,
+        "min_track_width": 0.8,
         "min_via_annular_width": 0.5,
         "min_via_diameter": 1.8,
         "solder_mask_to_copper_clearance": 0.0,
@@ -512,7 +512,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.9,
+        "clearance": 0.8,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -531,7 +531,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.9,
+        "clearance": 0.8,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -550,7 +550,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.9,
+        "clearance": 0.8,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -569,7 +569,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.9,
+        "clearance": 0.8,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -588,7 +588,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.9,
+        "clearance": 0.8,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
