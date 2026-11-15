@@ -4296,6 +4296,266 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 105.41 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9f639ce-64b5-45af-8842-233d03c1fa9c")
+		(property "Reference" "JP1"
+			(at 107.95 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B-/P- bridge (open)"
+			(at 107.95 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "milling:PinHeader_1x02_P2.54mm_Vertical"
+			(at 105.41 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder jumper B- to P- (open by default, solder to bypass the BMS negative switch)"
+			(at 105.41 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e8ed357-6edb-44e5-b85c-b714eac5c955")
+		)
+		(pin "2"
+			(uuid "b8f36159-bc34-4c06-a12f-b2b5f2722b1c")
+		)
+		(instances
+			(project "main"
+				(path "/af2293a5-cadd-44c9-910e-8dd5da8cdeb4"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(rectangle
 		(start 13.97 24.765)
@@ -4571,8 +4831,7 @@
 		(color 0 0 0 0)
 		(uuid "38e4f1f5-b2db-4a91-bf6d-305fbf783843")
 	)
-	(junction
-		(at 275.59 25.4)
+	(junction	(at 275.59 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a6c6edb-154f-4f41-adf7-beb414628584")
@@ -6855,7 +7114,7 @@
 		)
 		(uuid "0cd7860f-7a76-4e4a-b759-40efa1a68317")
 	)
-	(label "M3_ENC_B_ESP"
+	(label "M1_ENC_B_ESP"
 		(at 142.24 143.51 0)
 		(effects
 			(font
@@ -6865,7 +7124,7 @@
 		)
 		(uuid "0f68469c-ceb6-4782-bfce-73f8d7eaebee")
 	)
-	(label "LEFT_IN1"
+	(label "M1_IN1"
 		(at 220.98 30.48 180)
 		(effects
 			(font
@@ -6885,7 +7144,7 @@
 		)
 		(uuid "148050b3-2b5c-42cd-b5ce-c961938c5b63")
 	)
-	(label "RIGHT_IN1"
+	(label "M3_IN1"
 		(at 220.98 111.76 180)
 		(effects
 			(font
@@ -6905,7 +7164,7 @@
 		)
 		(uuid "15617324-1154-4a17-805a-4243e244ab28")
 	)
-	(label "LEFT_IN1"
+	(label "M2_IN2"
 		(at 142.24 153.67 0)
 		(effects
 			(font
@@ -6915,7 +7174,7 @@
 		)
 		(uuid "16a6488d-4493-4f97-a873-17682000f757")
 	)
-	(label "RIGHT_IN2"
+	(label "M3_IN2"
 		(at 220.98 121.92 180)
 		(effects
 			(font
@@ -6935,7 +7194,7 @@
 		)
 		(uuid "1a8165c1-f9fa-447b-b866-eeb822954f18")
 	)
-	(label "M1_ENC_B_ESP"
+	(label "M3_ENC_B_ESP"
 		(at 142.24 168.91 0)
 		(effects
 			(font
@@ -6945,7 +7204,7 @@
 		)
 		(uuid "1c9d6db0-5e8c-46f1-8eb7-e3327eca7811")
 	)
-	(label "LEFT_IN1"
+	(label "M2_IN1"
 		(at 223.52 68.58 180)
 		(effects
 			(font
@@ -7045,7 +7304,7 @@
 		)
 		(uuid "35fb9ce3-df43-486e-99c5-5bb5a2189838")
 	)
-	(label "LEFT_IN2"
+	(label "M3_IN2"
 		(at 142.24 156.21 0)
 		(effects
 			(font
@@ -7085,7 +7344,7 @@
 		)
 		(uuid "42670e1f-5600-4819-980c-7fdae40f0f8d")
 	)
-	(label "LEFT_IN2"
+	(label "M1_IN2"
 		(at 220.98 40.64 180)
 		(effects
 			(font
@@ -7105,7 +7364,7 @@
 		)
 		(uuid "431ca65e-a4b1-45c6-88d7-e73304b2ae07")
 	)
-	(label "RIGHT_IN2"
+	(label "M4_IN2"
 		(at 142.24 161.29 0)
 		(effects
 			(font
@@ -7195,7 +7454,7 @@
 		)
 		(uuid "5be7e0f5-f794-462b-9b7f-19c790aa9dd4")
 	)
-	(label "M2_ENC_B_ESP"
+	(label "M4_ENC_B_ESP"
 		(at 142.24 166.37 0)
 		(effects
 			(font
@@ -7225,7 +7484,7 @@
 		)
 		(uuid "62d45580-3f8d-46eb-90c9-71b81c72521c")
 	)
-	(label "M2_PWM"
+	(label "M1_IN1"
 		(at 106.68 171.45 180)
 		(effects
 			(font
@@ -7265,7 +7524,7 @@
 		)
 		(uuid "6c139781-3296-466d-a0ed-6294b64d64c2")
 	)
-	(label "RIGHT_IN2"
+	(label "M4_IN2"
 		(at 220.98 158.75 180)
 		(effects
 			(font
@@ -7295,7 +7554,7 @@
 		)
 		(uuid "780ff205-db5b-4d09-b032-9c91f29820cd")
 	)
-	(label "RIGHT_IN1"
+	(label "M4_IN1"
 		(at 220.98 148.59 180)
 		(effects
 			(font
@@ -7325,7 +7584,7 @@
 		)
 		(uuid "7bab4095-c075-4941-b0ab-129121e3f91b")
 	)
-	(label "TXS_OE"
+	(label "MOTORS_STBY"
 		(at 106.68 151.13 180)
 		(effects
 			(font
@@ -7335,7 +7594,7 @@
 		)
 		(uuid "82eded6e-017a-40be-91f7-a515bda41d29")
 	)
-	(label "MOTORS_STBY"
+	(label "TXS_OE"
 		(at 106.68 161.29 180)
 		(effects
 			(font
@@ -7345,15 +7604,82 @@
 		)
 		(uuid "84033d54-8554-4885-81b9-df61acb3faf4")
 	)
-	(label "M3_PWM"
-		(at 220.98 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 220.98 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ece192b2-037d-42d5-a3a3-281179a978a7")
+		(property "Reference" "#PWR056"
+			(at 220.98 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify right bottom)
 		)
-		(uuid "85bc9197-26d3-458d-b502-6f41158da296")
+		(property "Value" "+3.3V"
+			(at 220.47 100.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 220.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcb919d1-1bdd-4e53-847e-017fadb35022")
+		)
+		(instances
+			(project "main"
+				(path "/af2293a5-cadd-44c9-910e-8dd5da8cdeb4"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(label "M3_OUT1"
 		(at 180.34 106.68 180)
@@ -7385,15 +7711,82 @@
 		)
 		(uuid "8c638568-95de-47ef-9ea7-c92fc9282064")
 	)
-	(label "M2_PWM"
-		(at 223.52 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 223.52 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9b88232-3267-43f4-9a4c-43d976252535")
+		(property "Reference" "#PWR055"
+			(at 223.52 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify right bottom)
 		)
-		(uuid "90827522-bf62-436b-9af8-b50b11ab9551")
+		(property "Value" "+3.3V"
+			(at 223.01 56.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf86d4bb-8758-4619-9b04-66ac0e75d54d")
+		)
+		(instances
+			(project "main"
+				(path "/af2293a5-cadd-44c9-910e-8dd5da8cdeb4"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(label "M1_OUT2"
 		(at 264.16 40.64 0)
@@ -7425,7 +7818,7 @@
 		)
 		(uuid "9534d09a-ef58-4941-929b-1a36e279e857")
 	)
-	(label "M3_ENC_A_ESP"
+	(label "M4_IN1"
 		(at 106.68 163.83 180)
 		(effects
 			(font
@@ -7435,7 +7828,7 @@
 		)
 		(uuid "9576a8b5-5e66-44bc-8c67-3554f2f7be3b")
 	)
-	(label "M4_PWM"
+	(label "M2_IN1"
 		(at 142.24 151.13 0)
 		(effects
 			(font
@@ -7445,7 +7838,7 @@
 		)
 		(uuid "957f442c-c9e0-4709-9edf-8ad579d0b4c5")
 	)
-	(label "M4_ENC_A_ESP"
+	(label "M2_ENC_A_ESP"
 		(at 142.24 146.05 0)
 		(effects
 			(font
@@ -7495,7 +7888,7 @@
 		)
 		(uuid "a65801d9-07a9-4624-afb7-1ecf8245797f")
 	)
-	(label "M4_ENC_B_ESP"
+	(label "M1_ENC_A_ESP"
 		(at 106.68 153.67 180)
 		(effects
 			(font
@@ -7505,15 +7898,82 @@
 		)
 		(uuid "af0be802-c22f-49df-a42a-d8a8bcf13c1f")
 	)
-	(label "M4_PWM"
-		(at 220.98 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 220.98 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7d45a3a-7819-4511-8792-577054f10995")
+		(property "Reference" "#PWR054"
+			(at 220.98 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify right bottom)
 		)
-		(uuid "afb2944c-919c-4b28-a2bc-6ed3f3b37071")
+		(property "Value" "+3.3V"
+			(at 220.47 136.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 220.98 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb97e2b8-c82d-47fb-8af1-617d3f34836d")
+		)
+		(instances
+			(project "main"
+				(path "/af2293a5-cadd-44c9-910e-8dd5da8cdeb4"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(label "M3_ENC_B"
 		(at 62.23 151.13 0)
@@ -7615,7 +8075,7 @@
 		)
 		(uuid "cbd1ccac-5744-47a5-95e2-0c82527e2931")
 	)
-	(label "M3_PWM"
+	(label "M1_IN2"
 		(at 106.68 173.99 180)
 		(effects
 			(font
@@ -7625,7 +8085,7 @@
 		)
 		(uuid "d28044f1-b777-4e0b-98eb-1c1477b3d2e8")
 	)
-	(label "M1_ENC_A_ESP"
+	(label "M3_ENC_A_ESP"
 		(at 142.24 171.45 0)
 		(effects
 			(font
@@ -7645,17 +8105,84 @@
 		)
 		(uuid "d748f051-d76c-4247-8b8c-6c10c14cf70a")
 	)
-	(label "M1_PWM"
-		(at 220.98 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 220.98 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f33cb21b-7dfa-4709-b7cb-50d4e866b348")
+		(property "Reference" "#PWR053"
+			(at 220.98 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify right bottom)
 		)
-		(uuid "dd191c9c-2cd9-45d6-91c0-cdfad5144b60")
+		(property "Value" "+3.3V"
+			(at 220.47 18.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 220.98 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d903037c-72a3-4086-ad80-61207eb9debe")
+		)
+		(instances
+			(project "main"
+				(path "/af2293a5-cadd-44c9-910e-8dd5da8cdeb4"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
 	)
-	(label "RIGHT_IN1"
+	(label "M3_IN1"
 		(at 142.24 158.75 0)
 		(effects
 			(font
@@ -7695,7 +8222,7 @@
 		)
 		(uuid "eec479e5-9f38-489f-89a0-617b524b31fd")
 	)
-	(label "M2_ENC_A_ESP"
+	(label "M4_ENC_A_ESP"
 		(at 142.24 163.83 0)
 		(effects
 			(font
@@ -7725,7 +8252,7 @@
 		)
 		(uuid "f321c3f9-f262-4b8a-b99f-34459dcc6331")
 	)
-	(label "LEFT_IN2"
+	(label "M2_IN2"
 		(at 223.52 78.74 180)
 		(effects
 			(font
@@ -7735,7 +8262,7 @@
 		)
 		(uuid "f65275c4-edba-4150-a4c0-3ba463121055")
 	)
-	(label "M1_PWM"
+	(label "M2_ENC_B_ESP"
 		(at 106.68 168.91 180)
 		(effects
 			(font
@@ -8555,84 +9082,15 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 90.17 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1762ade7-e256-419d-9f77-88923b5dcc47")
-		(property "Reference" "#PWR053"
-			(at 90.17 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "BAT_RAW_MINUS"
+		(at 90.17 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Value" "GNDD"
-			(at 90.17 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 90.17 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc8f1c2d-2166-45fa-a791-2a85ace78c53")
-		)
-		(instances
-			(project "main"
-				(path "/af2293a5-cadd-44c9-910e-8dd5da8cdeb4"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "2d10fdce-22be-45a2-9a97-11d788a6e4e9")
 	)
 	(symbol
 		(lib_id "power:GNDD")
@@ -15030,84 +15488,15 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 40.64 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6a5a3f6-1070-4cc4-ad59-de450ae51e96")
-		(property "Reference" "#PWR049"
-			(at 40.64 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "BAT_RAW_MINUS"
+		(at 40.64 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Value" "GNDD"
-			(at 40.64 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 40.64 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4393fab9-6e60-47bd-ac98-beecae793136")
-		)
-		(instances
-			(project "main"
-				(path "/af2293a5-cadd-44c9-910e-8dd5da8cdeb4"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "a217bc8a-eef5-4702-bae5-03f6df709938")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -17671,6 +18060,95 @@
 			(project "main"
 				(path "/af2293a5-cadd-44c9-910e-8dd5da8cdeb4"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "BAT_RAW_MINUS"
+		(at 100.33 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fff33206-c592-4d47-867a-d420de1f43b1")
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 110.49 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e4d19d6-7352-474c-9adf-24ecc1d20439")
+		(property "Reference" "#PWR057"
+			(at 110.49 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 110.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 110.49 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ced8117-df6f-409a-9a76-97ce86fa15c1")
+		)
+		(instances
+			(project "main"
+				(path "/af2293a5-cadd-44c9-910e-8dd5da8cdeb4"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
